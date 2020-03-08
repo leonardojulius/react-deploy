@@ -41,7 +41,7 @@ function App() {
            />
            <div className="banner-text">
            <h1>Julius Leonardo</h1>
-            <h4>Junior Web Developer</h4>
+        
            <hr/>
            <p>Powered by ReactJS</p>
 
