@@ -33,8 +33,23 @@ function App() {
           <Grid className="landing-grid">
           <Cell col={12}>
            <img
-             src=""
+             src="https://raw.githubusercontent.com/leonardojulius/react-deploy/gh-pages/Screenshot%20from%202020-03-08%2022-25-38.png"
+             alt="avatar"
+             className="avatar-img"
            />
+           <div className="banner-text">
+           <h1> Junior Web Developer</h1>
+           <hr/>
+
+<p> | HTML/CSS |Materialize | Bootstrap | JavaScript | React | PHP-MVC | Yii2 | Laravel|</p>
+
+<div className="social-links">
+{/* linkedin*/}
+<a href="http://google.com" rel="noopener noreferrer" target ="_blank"></a>
+<i className="fa fa-linkedin-square" aria-hidden="true" />
+</div>
+           </div>
+
           </Cell>
           </Grid>
           </div>
@@ -42,6 +57,8 @@ function App() {
              <div className="page-content" />
 
               <Main/>
+
+
 
           </Content>
       </Layout>
