@@ -17,7 +17,7 @@ height: 100%;
 
 .avatar-img{
   height: 250px;
-  padding-top: 5em;
+  padding-top: -1em;
 }
 
 .banner-text{
@@ -47,26 +47,15 @@ height: 100%;
   color:white;
 }
 
-.banner-text h1{
+.banner-text h1, h4{
   font-size: 66px;
   font-weight: bold;
   color:white;
 }
 
 
-.social-links{
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
 
-}
 
-.social-links i {
-  color: white;
-  font-size: 5em;
-  padding: 8px;
-}
 .App {
   text-align: center;
 }
